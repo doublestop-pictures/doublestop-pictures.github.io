@@ -6,10 +6,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p style={{ "max-width": "70vmin"}}>
+          Double Stop Pictures is a full-service motion picture production
+          company based in New York City.
+        </p>
       </header>
-      <p>
-        We make movies.
-      </p>
+
+      <footer className="App-footer">
+        <a className="email" href="mailto:production@doublestop.pictures">
+          production@doublestop.pictures
+        </a>
+      </footer>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: black;
 }
 
 .App-logo {
@@ -9,11 +10,19 @@
 
 .App-header {
   background-color: #ffffff;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(2vmin);
+}
+
+.App-footer {
+  margin-top: 10vh;
+
+  > a.email {
+    text-decoration: none;
+    color: black;
+  }
 }
