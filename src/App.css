@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(2vmin);
+  font-size: calc(2.5vmin);
 }
 
 .App-footer {
@@ -24,5 +24,18 @@
   > a.email {
     text-decoration: none;
     color: black;
+    font-size: calc(2vmin);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .App-header {
+    font-size: calc(1.5vmin);
+  }
+
+  .App-footer {
+    > a.email {
+      font-size: calc(1vmin);
+    }
   }
 }
