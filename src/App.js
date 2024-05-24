@@ -14,7 +14,7 @@ function App() {
 
       <footer className="App-footer">
         <a className="email" href="mailto:production@doublestop.pictures">
-          production@doublestop.pictures
+          production@dblstop.com
         </a>
       </footer>
     </div>
